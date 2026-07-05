@@ -1,0 +1,16 @@
+agent:
+  temperature: 0
+  max_steps: 40
+
+browser:
+  headless: false
+  timeout: 60000
+
+wordpress:
+  use_rest_api: true
+  use_browser: true
+  auto_backup: true
+
+report:
+  pdf: true
+  html: true
